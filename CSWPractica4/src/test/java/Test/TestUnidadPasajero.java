@@ -19,7 +19,7 @@ public class TestUnidadPasajero {
 	
 	@Test
 	public void testAssertNotNull() {
-		pasajero.setNombre("test");
+		pasajero.setNombre(null);
 		assertNotNull(pasajero.getNombre());
 	}
 
